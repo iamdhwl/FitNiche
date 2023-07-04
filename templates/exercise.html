@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='ex.css') }}">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Exercise to keep you fit!</h2>
+         <div class="img-area">
+             <div class="single-img"><img src="{{ url_for('static', filename='medi.gif') }}" alt="" title="yoga"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='1057-LowerBack.gif') }}" alt="" title="lower back"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='RA 01.gif') }}" alt="" title="leg streching"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='RA 02.gif') }}"  alt="" title="leg streching"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='RA 03.gif') }}" alt="" title="back streching"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='RA 04.gif') }}" alt="" title="back exercise"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='RA Std 1.gif') }}" alt="" title="hand exercise"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='RA Std 2.gif') }}" alt="" title="Full body streching"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='IMG-20210913-WA0029.jpg') }}" alt="" title="leg exercise"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='in-and-out.gif') }}"  alt="" title="breathe in and out"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Ra1.gif') }}"  alt="" title="side exercise"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='IMG-20210913-WA0031.jpg') }}" alt="" title="walking"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Cycling.gif') }}" alt="" title="Cycling"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Calisthenics.gif') }}" alt="" title="Calisthenice"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Meditation.gif') }}" alt="" title="Meditation"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Pilates.jpg') }}" alt="" title="Pilates"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Stretching.gif') }}" alt="" title="Stretching"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Team Sports.gif') }}" alt="" title="Team Sports"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Weight Lifting.gif') }}" alt="" title="Weight Lifting"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Bala Asana.jpg') }}" alt="" title="Bala Asana"></div>
+             <div class="single-img"><img src="{{ url_for('static', filename='Hala Asana.png') }}" alt="" title="Hala Asana"></div>
+
+
+         </div>
+    </div>
+    <div class="info">
+        <p>In order to be safe from multiple disease you must follow proper diet, eat healthy food, do regular exercise, spend time with others</p>
+        <h3 class="info_h">Let's move back to <a style="color:red" href="{{ url_for('index') }}">HOME PAGE</a></h3>
+    </div>
+</body>
+</html>

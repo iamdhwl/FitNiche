@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- <link rel="stylesheet" href="../static/developer.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='developer.css') }}">
+
+</head>
+
+<body>
+    <center>
+        <h1 class="heading">Developers</h1>
+    </center>
+    <div class="wrapper">
+        <div class="responsive">
+            <div class="gallery">
+                <img src=" {{ url_for('static', filename='dhawal.jpg') }}" alt="Dhawal" width="300" height="200">
+                <div class="des">Dhawal</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <img src="{{ url_for('static', filename='jigyasa.jpg') }}" alt="" width="300" height="200">
+                <div class="des">Jigyasa</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <img src="{{ url_for('static', filename='sanjeev.jpg') }}" alt="" width="300" height="200">
+                <div class="des">Sanjeev</div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="home-index"><a class="index-link" href="{{ url_for('index') }}">HOME</a></div>
+    
+
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oleo+Script&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    /* background-color: #63a4ff;
+    background-image: linear-gradient(100deg, #63a4ff 3%, #83eaf1 74%); */
+}
+
+
+.heading{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-family: 'Oleo Script', cursive;
+    letter-spacing: 8px;
+    color: #eb5713;
+}
+/* Profile Images */
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    margin-left: 10rem;
+    margin-top: 40px;
+}
+
+.des{
+    padding: 16px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    color:#eb5713;
+}
+.des:hover{
+    color: rgb(47, 212, 212)
+}
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width:25%;
+    margin: 0 20px 0 0;
+    box-shadow:  0 20px 40px rgba(0,0,0,0.4);
+}
+.responsive:hover{
+    box-shadow: 0 0 10px rgb(119, 238, 22);
+    
+}
+.home-index {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   margin-top: 250px;
+}
+.index-link{
+   text-decoration: none;
+   font-size: 1.7rem;
+  
+}
+.index-link:hover{
+    color: rgb(47, 212, 212);
+}
+
+@media only screen and (max-width: 700px){
+    .responsive{
+        width:50%;
+        margin:6px 0
+    }
+    .wrapper{
+        margin: 0 0 0 0;
+    }
+    .home-index{
+        margin-top: 64rem;
+       
+    }
+
+
+}
+@media only screen and (max-width: 500px){
+    .responsive{
+        width:100%;
+    }
+    .wrapper{
+        margin: 0 0 0 0;
+    }
+   
+    
+}
+
